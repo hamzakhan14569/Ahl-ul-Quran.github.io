@@ -1,13 +1,15 @@
 * {
-margin: 0;
-padding: 0;
-font-family: 'Poppins', sans-serif;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
-body{
+
+body {
     background: #001e4d;
 }
-.app{
+
+.app {
     background: #fff;
     width: 90%;
     max-width: 600px;
@@ -16,7 +18,8 @@ body{
     padding: 30px;
     text-align: right;
 }
-.app h1{
+
+.app h1 {
     font-size: 25px;
     color: #001e4d;
     font-weight: 600;
@@ -24,17 +27,20 @@ body{
     padding-bottom: 30px;
     text-align: right;
 }
-.quiz{
+
+.quiz {
     padding: 20px 0;
     text-align: right;
 }
-.quiz h2{
+
+.quiz h2 {
     font-size: 18px;
     color: #001e4d;
     font-weight: 600;
     text-align: right;
 }
-.btn{
+
+.btn {
     background: #fff;
     color: #222;
     font-weight: 500;
@@ -47,14 +53,17 @@ body{
     cursor: pointer;
     transition: all 0.3s;
 }
-.btn:hover:not([disabled]){
+
+.btn:hover:not([disabled]) {
     background: #222;
     color: #fff;
 }
-.btn:disabled{
+
+.btn:disabled {
     cursor: no-drop;
 }
-#next-btn{
+
+#next-btn {
     background: #001e4d;
     color: #fff;
     font-weight: 500;
@@ -66,9 +75,57 @@ body{
     cursor: pointer;
     display: none;
 }
-.correct{
+
+.correct {
     background: #9aeabc;
 }
-.incorrect{
+
+.incorrect {
     background: #ff9393;
+}
+.intro {
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 28px;
+    color: #001e4d;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #222;
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.start-btn {
+    background: #001e4d;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    background: #0040aa;
 }
